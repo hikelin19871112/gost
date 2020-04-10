@@ -98,7 +98,7 @@ Install_ct(){
              `rm -rf "$(pwd)"/config.json`
              `rm -rf "$(pwd)"/gost.sh`
             else
-            echo "${Red_font_prefix}gost没有安装成功，可以到https://www.fiisi.com评论留言询问${Font_color_suffix}"
+            echo "${Red_font_prefix}gost没有安装成功}"
              `rm -rf   "$(pwd)"/gost`
              `rm -rf "$(pwd)"/gost.service`
              `rm -rf "$(pwd)"/config.json`
@@ -131,7 +131,7 @@ Restart_ct(){
 
 echo "the last version has been launched in my blog" 
 echo && echo -e "  gost 一键安装脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
-  ---- fiisi | https://www.fiisi.com ----
+  ---- SIEMENSTUTORIALS ----
   
  ${Green_font_prefix}1.${Font_color_suffix} 安装 gost
  ${Green_font_prefix}2.${Font_color_suffix} 卸载 gost
